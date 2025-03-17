@@ -23,7 +23,7 @@ null: ha intenzionalmente valore nullo.
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-let myName = "Zaira";
+const myName = "Zaira";
 console.log(myName);
 
 /*D1.js:27 Zaira*/
@@ -51,7 +51,8 @@ let x = 12;
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* se la stringa sottostante non fosse commentata alla riga 57 invece che "Zaira" la console produrrebbe la riga 58 */
+/* 
+se la stringa sottostante non fosse commentata alla riga 57 invece che "Zaira" la console produrrebbe la riga 59 */
 //const myName = "Straticò";
 console.log(myName);
 
@@ -64,7 +65,7 @@ console.log(myName);
 
 console.log(4 - x);
 /* 
-D1.js:65 -8
+D1.js:66 -8
  */
 
 /* ESERCIZIO 7
@@ -78,13 +79,13 @@ name2 = "John";
 console.log(name1 === name2);
 console.log(name1 !== name2);
 /*
-D1.js:78 false
-D1.js:79 true
+D1.js:79 false
+D1.js:80 true
  */
 
 /* EXTRA */
 name1 = "John";
 console.log(name1 === name2);
 /*
-D1.js:87 true
+D1.js:88 true
  */
