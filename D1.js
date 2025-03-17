@@ -77,8 +77,12 @@ console.log(name1 === name2);
 console.log(name1 !== name2);
 /*
 D1.js:76 false
+D1.js:77 true
  */
 
 /* EXTRA */
 name1 = "John";
 console.log(name1 === name2);
+/*
+D1.js:85 true
+ */
