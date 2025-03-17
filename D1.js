@@ -15,7 +15,7 @@ REGOLE
 string: la parola tra virgolette viene letta come insieme di caratteri;
 number: la cifra viene considerata per il suo valore numerico;
 bolean: può avere solo due valori, true o false;
-undefined: il contenitore è stato creato ma non riempito, è indeterminato;
+undefined: il contenitore è stato creato ma non riempito, il contenuto è indeterminato;
 null: ha intenzionalmente valore nullo.
 */
 
