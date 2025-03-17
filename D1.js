@@ -23,26 +23,41 @@ null: ha intenzionalmente valore nullo.
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const myName = "Zaira";
+console.log(myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let a = 12;
+let b = 20;
+
+console.log(a + b);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let x = 12;
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// const myName = "Straticò";
+console.log(myName);
+/*  
+D1.js:27 Zaira
+D1.js:36 32
+D1.js:50 Zaira
+*/
+
+const myName = "Straticò";
+console.log(myName);
+
+/* D1.js:57 Uncaught SyntaxError: Identifier 'myName' has already been declared (at D1.js:57:7) */
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
