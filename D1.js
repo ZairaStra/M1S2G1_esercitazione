@@ -84,8 +84,8 @@ D1.js:80 true
  */
 
 /* EXTRA */
-name1 = "John";
-console.log(name1 === name2);
+let toLowerCase = "name1" === "name2.toLowerCase";
+console.log(name1 === name2.toLowerCase);
 /*
 D1.js:88 true
  */
