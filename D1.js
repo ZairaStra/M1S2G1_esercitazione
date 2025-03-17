@@ -23,8 +23,10 @@ null: ha intenzionalmente valore nullo.
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-const myName = "Zaira";
+let myName = "Zaira";
 console.log(myName);
+
+/*D1.js:27 Zaira*/
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -34,6 +36,9 @@ let a = 12;
 let b = 20;
 
 console.log(a + b);
+/*
+D1.js:38 32
+ */
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -46,24 +51,21 @@ let x = 12;
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-// const myName = "Zaira";
-console.log(myName);
-/*  
-D1.js:27 Zaira
-D1.js:36 32
-D1.js:50 Zaira
-*/
-/* se la stringa sottostante non fosse commentata alla riga 57 invece che "Zaira" la console produrrebbe la riga 60 */
+/* se la stringa sottostante non fosse commentata alla riga 57 invece che "Zaira" la console produrrebbe la riga 58 */
 //const myName = "Straticò";
 console.log(myName);
 
-/* D1.js:57 Uncaught SyntaxError: Identifier 'myName' has already been declared (at D1.js:57:7) */
+/* D1.js:55 Uncaught SyntaxError: Identifier 'myName' has already been declared (at D1.js:55:7)
+ */
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 console.log(4 - x);
+/* 
+D1.js:65 -8
+ */
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -76,13 +78,13 @@ name2 = "John";
 console.log(name1 === name2);
 console.log(name1 !== name2);
 /*
-D1.js:76 false
-D1.js:77 true
+D1.js:78 false
+D1.js:79 true
  */
 
 /* EXTRA */
 name1 = "John";
 console.log(name1 === name2);
 /*
-D1.js:85 true
+D1.js:87 true
  */
