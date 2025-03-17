@@ -46,15 +46,15 @@ let x = 12;
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-// const myName = "Straticò";
+// const myName = "Zaira";
 console.log(myName);
 /*  
 D1.js:27 Zaira
 D1.js:36 32
 D1.js:50 Zaira
 */
-
-const myName = "Straticò";
+/* se la stringa sottostante non fosse commentata alla riga 57 invece che "Zaira" la console produrrebbe la riga 60 */
+//const myName = "Straticò";
 console.log(myName);
 
 /* D1.js:57 Uncaught SyntaxError: Identifier 'myName' has already been declared (at D1.js:57:7) */
@@ -63,7 +63,7 @@ console.log(myName);
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log(4 - x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -71,4 +71,14 @@ console.log(myName);
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+name1 = "john";
+name2 = "John";
+console.log(name1 === name2);
+console.log(name1 !== name2);
+/*
+D1.js:76 false
+ */
+
+/* EXTRA */
+name1 = "John";
+console.log(name1 === name2);
